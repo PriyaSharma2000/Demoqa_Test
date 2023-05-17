@@ -1,5 +1,6 @@
 const playwright = require("@playwright/test");
 const {WidgetsPage} = require("../pages/widgetsPage");
+const { beforeEach, afterEach } = require("mocha")
 
 let page, browser, context;
 

@@ -1,5 +1,6 @@
 const playwright = require("@playwright/test");
 const {InteractionsPage} = require("../pages/interactionsPage");
+const { beforeEach, afterEach } = require("mocha");
 
 let page, browser, context;
 
