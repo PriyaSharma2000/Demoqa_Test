@@ -1,6 +1,5 @@
 const playwright = require("@playwright/test");
 const {AlertFramePage} = require("../pages/alertFramePage");
-const { expect, assert, should } = require('chai');
 
 let page, browser, context;
 

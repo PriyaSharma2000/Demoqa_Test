@@ -1,6 +1,5 @@
 const playwright = require("@playwright/test");
 const {InteractionsPage} = require("../pages/interactionsPage");
-const { expect, assert, should } = require('chai');
 
 let page, browser, context;
 

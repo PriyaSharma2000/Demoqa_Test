@@ -1,9 +1,9 @@
 const playwright = require("@playwright/test");
 const {ElementsPage} = require("../pages/elementsPage");
-const chai = require('chai');
+const { expect } = require('chai');
 
 
-let page, browser, context,c;
+let page, browser, context;
 
 
 beforeEach(async () => {
